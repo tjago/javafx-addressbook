@@ -9,9 +9,6 @@ Features:
 * Binds data to XML file
 * Uses Chart component to present gathered data
 
-![screen1][screen-main] _
-![screen2][screen-stats]
-
 ## Building
 
 ```
@@ -24,6 +21,10 @@ or (when gradle not locally installed)
 # gradlew clean build run
 ```
 
+## Screenshots
+
+![screen1][screen-main]
+![screen2][screen-stats]
 
 [screen-main]: https://github.com/tjago/javafx-addressbook/raw/master/media/screenshots/main-window.jpg "JavaFX Chart"
 [screen-stats]: https://github.com/tjago/javafx-addressbook/raw/master/media/screenshots/statistics-window.jpg "App Interface"
