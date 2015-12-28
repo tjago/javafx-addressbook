@@ -1,0 +1,28 @@
+/*
+ * Tutorial App from: http://code.makery.ch/library/javafx-8-tutorial
+ *
+ */
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'eu.tjago.addressapp.MainApp'
+version = '1.0'
+
+jar {
+    baseName = 'address-book-app'
+    manifest {
+        attributes  'Implementation-Title': 'address-book-app',
+                    'Implementation-Version': 1.0,
+                    'Main-Class': 'eu.tjago.addressapp.MainApp'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    testCompile 'junit:junit:4.12'
+}
